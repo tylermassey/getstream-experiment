@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "nodejs",
+  "builds": [
+    { "src": "index.js", "use": "@now/node" },
+    { "src": "userToken.js", "use": "@now/node" },
+    { "src": "readToken.js", "use": "@now/node" },
+    { "src": "followFeed.js", "use": "@now/node" },
+    { "src": "createUser.js", "use": "@now/node" }
+  ]
+}
